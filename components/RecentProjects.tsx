@@ -1,13 +1,13 @@
 "use client";
 
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaArrowUp, FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <div id="projects" className="py-60">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
@@ -67,9 +67,9 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                    read more
                   </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  <FaArrowUp className="ms-3" color="#CBACF9" />
                 </div>
               </div>
             </PinContainer>
