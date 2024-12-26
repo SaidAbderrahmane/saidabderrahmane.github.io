@@ -83,7 +83,7 @@ export const projects = [
     id: 2,
     title: "Delfiv Events App",
     des: "Created a mobile app to manage events using Flutter, including features for ticketing and mailing.",
-    img: "/p2.svg",
+    img: "/delfiv-events.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
@@ -211,6 +211,6 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
-    link:"//linkedin.com/hadj-said-abderrahmane"
+    link:"//linkedin.com/in/hadj-said-abderrahmane/"
   },
 ];
