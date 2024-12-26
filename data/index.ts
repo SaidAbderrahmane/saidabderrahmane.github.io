@@ -99,7 +99,7 @@ export const projects = [
     id: 4,
     title: "Logifusion",
     des: "Data Governance app for Logicom commerce management software ",
-    img: "/logifusion.png",
+    img: "/Logifusion.png",
     iconLists: ["/flutter.svg", "/laravel.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
   },
