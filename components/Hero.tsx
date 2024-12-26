@@ -39,7 +39,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-              I'm a Junior Software Engineer.
+              I&apos;m a Junior Software Engineer.
           </p>
 
           <a href="#projects">

@@ -8,7 +8,7 @@ export const Contact = () => {
           Contact
         </h2>
         <p className="text-center text-lg md:text-2xl mb-8">
-          Have a project in mind or just want to say hi? I'd love to hear from
+          Have a project in mind or just want to say hi? I&apos;d love to hear from
           you.
         </p>
         <form
