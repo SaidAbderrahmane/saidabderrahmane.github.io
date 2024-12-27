@@ -1,7 +1,7 @@
 import { link } from "fs";
 
 export const navItems = [
-  { name: "About", link: "#about" },
+  { name: "Stack", link: "#stack" },
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
   { name: "Resume", link: "#resume" },
@@ -76,7 +76,7 @@ export const projects = [
     title: "Ahbab El marda Website",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/ahbab.png",
-    iconLists: ["/laravel.svg", "/tail.svg","/re.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/laravel.svg", "/js.svg","/tail.svg"],
     link: "/ui.earth.com",
   },
   {
@@ -84,7 +84,7 @@ export const projects = [
     title: "Delfiv Events App",
     des: "Created a mobile app to manage events using Flutter, including features for ticketing and mailing.",
     img: "/delfiv-events.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/next.svg", "/ts.svg","/tail.svg","/flutter.svg"],
     link: "/ui.yoom.com",
   },
   {
@@ -92,7 +92,7 @@ export const projects = [
     title: "OpenMarket - Multi-vendor e-commerce website",
     des: "Developed a scalable e-commerce platform for multiple vendors using Laravel, Bootstrap CSS, and Stripe.",
     img: "/openmarket.png",
-    iconLists: ["/laravel.svg","/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/laravel.svg","/js.svg","stripe.svg","/bootstrap.svg"],
     link: "/ui.aiimg.com",
   },
   {
@@ -100,7 +100,7 @@ export const projects = [
     title: "Logifusion",
     des: "Data Governance app for Logicom commerce management software ",
     img: "/Logifusion.png",
-    iconLists: ["/flutter.svg", "/laravel.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/laravel.svg","/flutter.svg" ],
     link: "/ui.apple.com",
   },
 ];
@@ -205,7 +205,7 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/github.svg",
     link:"//github.com/saidabderrahmane"
   },
   {
@@ -214,3 +214,4 @@ export const socialMedia = [
     link:"//linkedin.com/in/hadj-said-abderrahmane/"
   },
 ];
+
