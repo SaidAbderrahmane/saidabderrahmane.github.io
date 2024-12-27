@@ -26,7 +26,6 @@ Built with Next.js for handling the user interface, Three.js for rendering 3D el
 
 If you're getting started and need assistance or face any bugs, join our active Discord community with over **34k+** members. It's a place where people help each other out.
 
-
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
 - Next.js
@@ -602,7 +601,3 @@ Assets used in the project can be found [here](https://drive.google.com/file/d/1
 **Advance your skills with Next.js Pro Course**
 
 Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning experience. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://www.jsmastery.pro/ultimate-next-course" target="_blank">
-<img src="https://i.ibb.co/804sPK6/Image-720.png" alt="Project Banner">
-</a>
