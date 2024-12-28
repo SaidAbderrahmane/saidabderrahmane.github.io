@@ -74,7 +74,7 @@ export const projects = [
   {
     id: 1,
     title: "Ahbab El marda Website",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "Created a web app for managing Ahbab El Marda Association Blood donation compaigns, built using Laravel, Tailwind css and Chart js",
     img: "/ahbab.png",
     iconLists: ["/laravel.svg", "/js.svg","/tail.svg"],
     link: "/ui.earth.com",
