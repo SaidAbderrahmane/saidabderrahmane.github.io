@@ -54,7 +54,7 @@ const Skills = () => {
             </h1>
 
             <Tabs value={activeTab} onValueChange={(value) => setActiveTab(value as SkillCategory)}>
-                <TabsList className='rounded-lg p-4 mb-4'>
+                <TabsList className='rounded-lg p-4 mb-4 bg-black-300'>
                     <TabsTrigger value="frontend">Frontend</TabsTrigger>
                     <TabsTrigger value="backend">Backend</TabsTrigger>
                     <TabsTrigger value="mobile">Mobile</TabsTrigger>
@@ -65,7 +65,7 @@ const Skills = () => {
                     <TabsContent key={category} value={category}>
                         <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
                             {skillsList.map((skill, index) => (
-                                <Card key={index} className="">
+                                <Card key={index} className="bg-black-200">
                                     <CardHeader>
                                         <CardTitle>
                                             <div className='flex flex-row'>
