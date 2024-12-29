@@ -11,8 +11,14 @@ const Experience = () => {
         My <span className="text-purple">work experience</span>
       </h1>
 
-      <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
-        {workExperience.map((card) => (
+      <div className="w-full mt-12 flex flex-col justify-start items-center">
+      {workExperience.map((card) => (
+        <div key={card.id} className="flex flex-row justify-start items-center w-full md:w-3/4 lg:w-1/2 p-4">
+          {card.title}
+          </div>
+      ))}
+
+       {/*  {workExperience.map((card) => (
           <Button
             key={card.id}
             //   random duration will be fun , I think , may be not
@@ -46,7 +52,7 @@ const Experience = () => {
                 </p>
               </div>
           </Button>
-        ))}
+        ))} */}
       </div>
     </div>
   );

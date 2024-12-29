@@ -1,73 +1,10 @@
 import { link } from "fs";
 
 export const navItems = [
-  { name: "Stack", link: "#stack" },
-  { name: "Projects", link: "#projects" },
-  { name: "Contact", link: "#contact" },
-  { name: "Resume", link: "#resume" },
-];
-
-export const gridItems = [
-  {
-    id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "/b1.svg",
-    spareImg: "",
-  },
-  {
-    id: 2,
-    title: "I'm very flexible with time zone communications",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "",
-    spareImg: "",
-  },
-  {
-    id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-center",
-    img: "",
-    spareImg: "",
-  },
-  {
-    id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
-  },
-  {
-    id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
-    className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
-  },
-  {
-    id: 6,
-    title: "Do you want to start a project together?",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-    img: "",
-    spareImg: "",
-  },
+  { name: "Stack", link: "/#skills" },
+  { name: "Projects", link: "/#projects" },
+  { name: "Contact", link: "/#contact" },
+  { name: "Resume", link: "/resume" },
 ];
 
 export const projects = [
@@ -126,101 +63,78 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
+export const education = [
 
-export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    title: "Msc in Big Data & AI",
+    school: "ESTIA - Institute of Advanced Industrial Technologies",
+    period: "2024 - 2025",
+    desc: `• Software Engineering: Agile Methodology, Full‑Stack Development, DevOps, Cloud Computing, Cybersecurity.
+    • Data Engineering: Big Data Management, Advanced Databases (Oracle, NoSQL, MongoDB), MLOps.
+    • Data Analysis: Machine Learning, Deep Learning`,
+    thumbnail: "/edu2.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
+    title: "Bachelor's Degree in Computer Science",
+    school: "USTHB - University of Science and Technology Houari Boumediene",
+    period: "2018 - 2022",
+    desc: `• Algorithms and data structures, Programming basics.
+    • Calculus, Linear Algebra, Probabilities and Statistics.
+    • Software engineering, Information Systems, OOP`,
+    thumbnail: "/edu1.svg",
+  }
+]
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
+    title: "Junior Full-Stack Developer",
+    company: "Delfiv",
+    period: "June 2022 - September 2024",
+    desc: `• Analyzed and specified project requirements.
+          • Implemented and documented RESTful API server for a Data synchronsation system.
+          • Created and managed MySql databases.
+          • Conducted integration testing, performed system maintenance, and automated tasks using Python and shell scripts.
+          • Provided training sessions for team members and end‑users.
+          • Collaborated with development and operations teams to deliver efficient solutions..
+          • Relevant Projects:
+          \t– Data Synchronization System: Developed a backend using Laravel and MySQL, along with a cross‑platform admin app (Android & Win‑
+          dows) in Flutter, used by 30+ clients.
+          \t– Event Management System: Built a web app for event registration and an Android app that included a QR code scanner for virtual ticket
+          validation and a dashboard, using Node.js, Express.js, Next.js, Flutter, and MySQL.`,
+    Stack: ["React", "Next.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
     thumbnail: "/exp1.svg",
   },
   {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    id: 1,
+    title: "Technical Support Specialist",
+    company: "Delfiv",
+    period: "September 2021 - June 2022",
+    desc: `• Provided technical support to clients, including troubleshooting, diagnosing, and resolving hardware and software issues.
+    • Installed, configured, and maintained computer systems, networks, and software applications.
+    • Assisted in the development of a web‑based platform using React.js, enhancing interactivity.
+    • Conducted training sessions for clients on software usage and best practices.
+    • Collaborated with the development team to identify and resolve software bugs and issues.
+    • Managed and maintained databases, ensuring availability and security.
+    • Configured and managed ERP environments (Windows, Android, VPN, RDP).
+    • Automated routine tasks and streamlined processes using scripts and software tools.`,
+    Stack: ["React", "Next.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
+    thumbnail: "/exp1.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+    title: "Full-Stack Developer Intern",
+    company: "Azimut Business Solutions",
+    period: "April 2021 - June 2021",
+    desc: `• Developed and maintained web applications using React.js, Node.js, and MongoDB.
+    • Implemented RESTful APIs for data retrieval and manipulation.
+    • Designed and developed user interfaces using React.js and Tailwind CSS.
+    • Conducted code reviews and provided feedback to team members.`,
+    Stack: ["React", "Next.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
+    thumbnail: "/exp1.svg",
+  }
 ];
 
 export const socialMedia = [
@@ -236,3 +150,34 @@ export const socialMedia = [
   },
 ];
 
+export type SkillCategory = 'frontend' | 'backend' | 'mobile' | 'devops' | 'tools';
+
+export const skills: Record<SkillCategory, { name: string, icon: string, description: string }[]> = {
+  frontend: [
+      { name: 'JavaScript', icon: "/js.svg", description: 'A versatile programming language mainly used for web development.' },
+      { name: 'React', icon: "/react.svg", description: 'A JavaScript library for building user interfaces.' },
+      { name: 'TypeScript', icon: "/ts.svg", description: 'A typed superset of JavaScript that compiles to plain JavaScript.' },
+      { name: 'Tailwind', icon: "/tail.svg", description: 'A utility-first CSS framework for rapid UI development.' },
+      { name: 'Bootstrap', icon: "/bootstrap.svg", description: 'A popular CSS framework for developing responsive and mobile-first websites.' }
+  ],
+  backend: [
+      { name: 'Node.js', icon: "/node.svg", description: 'A JavaScript runtime built on Chrome\'s V8 JavaScript engine.' },
+      { name: 'Express', icon: "/js.svg", description: 'A minimal and flexible Node.js web application framework.' },
+      { name: 'MongoDB', icon: "/mongodb.svg", description: 'A document-oriented NoSQL database used for high volume data storage.' },
+      { name: 'MySQL', icon: "/mysql.svg", description: 'An open-source relational database management system.' }
+  ],
+  mobile: [
+      { name: 'Flutter', icon: "/flutter.svg", description: 'A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.' },
+      { name: 'React Native', icon: "/react.svg", description: 'A framework for building native apps using React.' },
+  ],
+  devops: [
+      { name: 'Git', icon: "/git.svg", description: 'A distributed version control system for tracking changes in source code.' },
+      { name: 'GitHub Actions', icon: "/github.svg", description: 'A CI/CD service that allows you to automate your software workflows.' },
+      { name: 'Docker', icon: "/docker.svg", description: 'A platform for developing, shipping, and running applications in containers.' }
+  ],
+  tools: [
+      { name: 'VSCode', icon: "/vscode.svg", description: 'A source-code editor made by Microsoft for Windows, Linux and macOS.' },
+      { name: 'Jira', icon: "/jira.svg", description: 'A proprietary issue tracking product developed by Atlassian.' },
+      { name: 'Postman', icon: "/postman.svg", description: 'An API platform for building and using APIs.' }
+  ]
+};
