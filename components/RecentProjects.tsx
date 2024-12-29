@@ -4,8 +4,25 @@ import { FaArrowUp, FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
+import { ProjectModal } from './ProjectModal';
+import { useState } from "react";
+
 
 const RecentProjects = () => {
+
+  const [dialogIsOpen, setDialogIsOpen] = useState(false);
+  const [selectedProject, setSelectedProject] = useState(null);
+
+  const openDialog = (project: any) => {
+    setSelectedProject(project);
+    setDialogIsOpen(true);
+  };
+
+    const closeDialog = () => {
+    setDialogIsOpen(false);
+    setSelectedProject(null);
+  };
+
   return (
     <div id="projects" className="py-60">
       <h1 className="heading">
@@ -18,9 +35,9 @@ const RecentProjects = () => {
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
           >
-            <PinContainer
-              title={item.title}
-              href=""
+            <div className="rounded-2xl  shadow-[0_8px_16px_rgb(0_0_0/0.4)] border p-3 border-white/[0.1] group-hover/pin:border-white/[0.2] "
+            // title={item.title}
+            // href=""
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
@@ -66,16 +83,21 @@ const RecentProjects = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                  <button onClick={() => openDialog(item)} className="flex lg:text-xl md:text-xs text-sm text-purple">
                     read more
-                  </p>
+                  </button>
                   <FaArrowUp className="ms-3" color="#CBACF9" />
                 </div>
               </div>
-            </PinContainer>
-          </div>
+            </div>
+          </div>     
         ))}
       </div>
+       <ProjectModal
+        isOpen={dialogIsOpen}
+        onClose={closeDialog}
+        project={selectedProject}
+        />
     </div>
   );
 };

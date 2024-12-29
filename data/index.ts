@@ -74,34 +74,55 @@ export const projects = [
   {
     id: 1,
     title: "Ahbab El marda Website",
-    des: "Created a web app for managing Ahbab El Marda Association Blood donation compaigns, built using Laravel, Tailwind css and Chart js",
+    des: "Created a web app for managing Ahbab El Marda Association Blood donation campaigns, built using Laravel, Tailwind CSS, and Chart.js.",
+    longDes: `- Created a comprehensive web application for managing Ahbab El Marda Association Blood donation campaigns.\n- The platform was built using Laravel for the backend, Tailwind CSS for responsive design, and Chart.js for data visualization. \n - The application allows administrators to track donations, manage donor information, and visualize campaign performance through interactive charts.`,
     img: "/ahbab.png",
-    iconLists: ["/laravel.svg", "/js.svg","/tail.svg"],
+    iconLists: ["/laravel.svg", "/js.svg", "/tail.svg"],
     link: "/ui.earth.com",
+    screenshots: [
+      "/ahbab.png",
+      "/ahbab2.png",
+      "/ahbab3.png",
+    ]
   },
   {
     id: 2,
     title: "Delfiv Events App",
     des: "Created a mobile app to manage events using Flutter, including features for ticketing and mailing.",
+    longDes: `- Developed a full‑stack application to track visitor registrations and check‑ins during Delfiv events. The Android version, built using Flutter, includes features for scanning QR tickets.\n- Implemented a comprehensive dashboard to export the visitor list, allowing event organizers to efficiently manage attendance data.\n - The app also supports ticketing and mailing functionalities, providing a seamless experience for both organizers and attendees.`,
     img: "/delfiv-events.png",
-    iconLists: ["/next.svg", "/ts.svg","/tail.svg","/flutter.svg"],
+    iconLists: ["/next.svg", "/ts.svg", "/tail.svg", "/flutter.svg"],
     link: "/ui.yoom.com",
+    screenshots: [
+      "/delfiv-events.png",
+      "/delfiv-events2.png",
+    ]
   },
   {
     id: 3,
     title: "OpenMarket - Multi-vendor e-commerce website",
     des: "Developed a scalable e-commerce platform for multiple vendors using Laravel, Bootstrap CSS, and Stripe.",
+    longDes: `- Developed a multi‑vendor e‑commerce website using Laravel, MySQL, JavaScript, and Bootstrap. \n- The platform supports multiple vendors, allowing them to manage their own products and sales. Integrated Stripe API for secure online payments.\n - Designed and implemented interactive visualizations using Chart.js, providing users and administrators with data insights.`,
     img: "/openmarket.png",
-    iconLists: ["/laravel.svg","/js.svg","stripe.svg","/bootstrap.svg"],
+    iconLists: ["/laravel.svg", "/js.svg", "stripe.svg", "/bootstrap.svg"],
     link: "/ui.aiimg.com",
+    screenshots: [
+      "/openmarket.png",
+      "/openmarket2.png",
+      "/openmarket3.png",
+    ]
   },
   {
     id: 4,
     title: "Logifusion",
-    des: "Data Governance app for Logicom commerce management software ",
+    des: "Data Governance app for Logicom commerce management software.",
+    longDes: `- Developed a cross‑platform application for cloud data governance, enabling ERP administrators to monitor data changes, manage reference data, and visualize key information on a dashboard. \n- Integrated real‑time data monitoring features for improved transparency and control over cloud‑based operations.\n- Designed user‑friendly dashboards to visualize data modifications and key metrics, improving decision‑making and efficiency.\n- The app supports various data governance activities, ensuring data integrity and compliance.`,
     img: "/Logifusion.png",
-    iconLists: ["/laravel.svg","/flutter.svg" ],
+    iconLists: ["/laravel.svg", "/flutter.svg"],
     link: "/ui.apple.com",
+    screenshots: [
+      "/Logifusion.png",
+    ],
   },
 ];
 
@@ -206,12 +227,12 @@ export const socialMedia = [
   {
     id: 1,
     img: "/github.svg",
-    link:"//github.com/saidabderrahmane"
+    link: "//github.com/saidabderrahmane"
   },
   {
     id: 3,
     img: "/link.svg",
-    link:"//linkedin.com/in/hadj-said-abderrahmane/"
+    link: "//linkedin.com/in/hadj-said-abderrahmane/"
   },
 ];
 
