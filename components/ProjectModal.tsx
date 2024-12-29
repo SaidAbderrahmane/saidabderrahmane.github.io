@@ -24,7 +24,7 @@ interface ProjectModalProps {
 }
 
 const formatDescription = (description: string) => {
-  return description.replace(/\n/g, '<br />');
+  return description.replace(/\n/g, '<br />').replace(/\t/g, '&nbsp;&nbsp;&nbsp;&nbsp;');
 };
 
 export const ProjectModal = ({ isOpen, onClose, project }: ProjectModalProps) => {
