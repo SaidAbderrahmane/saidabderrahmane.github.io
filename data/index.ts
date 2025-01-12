@@ -207,10 +207,10 @@ export const skills: Record<SkillCategory, { name: string, icon: string, descrip
       { name: 'Docker', icon: "/docker.svg", description: 'A platform for developing, shipping, and running applications in containers.' }
   ],
   "data science": [
-    { name: 'Machine Learning (sklearn)', icon: "/python.svg", description: 'A library for the Python programming language that is used for machine learning.' },
-    { name: 'Deep Learning (keras)', icon: "/python.svg", description: 'A high-level neural networks API, written in Python.' },
-    { name: 'EDA(pandas, numpy, seaborn)', icon: "/python.svg", description: 'A library providing data structures and functions for data analysis.' },
-    { name: 'ETL pipelines (Spark & Kafka)', icon: "/java.svg", description: 'A unified analytics engine for large-scale data processing.' }
+    { name: 'EDA ( Pandas, Numpy, Seaborn )', icon: "/python.svg", description: 'A Python library providing data structures and functions for data analysis.' },
+    { name: 'Machine Learning ( Sklearn )', icon: "/python.svg", description: 'A Python Library that is used for machine learning.' },
+    { name: 'Deep Learning ( Keras )', icon: "/python.svg", description: 'A high-level neural networks API, written in Python.' },
+    { name: 'ETL pipelines ( Spark & Kafka )', icon: "/java.svg", description: 'A unified analytics engine for large-scale data processing.' }
 ],
   tools: [
       { name: 'VSCode', icon: "/vscode.svg", description: 'A source-code editor made by Microsoft for Windows, Linux and macOS.' },
