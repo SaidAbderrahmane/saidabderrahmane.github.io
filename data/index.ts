@@ -72,7 +72,7 @@ export const projects = [
     - Used Tailwind CSS for styling and responsive design.`,
     img: "/grails_messages.png",
     iconLists: ["/spring.svg","/java.svg","/grails.svg","/tail.svg","/js.svg"],
-    link: "https:/github.com/saidabderrahmane/bus_line_supervision",
+    link: "https:/github.com/saidabderrahmane/lecoincoin",
     screenshots: [
       "/grails_login.png","/grails_messages.png","/grails_chat.png"
     ],
