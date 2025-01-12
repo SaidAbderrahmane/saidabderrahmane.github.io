@@ -1,7 +1,7 @@
 import { link } from "fs";
 
 export const navItems = [
-  { name: "Stack", link: "/#skills" },
+  { name: "Stack", link: "/#stack" },
   { name: "Projects", link: "/#projects" },
   { name: "Contact", link: "/#contact" },
   { name: "Resume", link: "/resume" },
@@ -15,7 +15,7 @@ export const projects = [
     longDes: `- Created a comprehensive web application for managing Ahbab El Marda Association Blood donation campaigns.\n- The platform was built using Laravel for the backend, Tailwind CSS for responsive design, and Chart.js for data visualization. \n - The application allows administrators to track donations, manage donor information, and visualize campaign performance through interactive charts.`,
     img: "/ahbab.png",
     iconLists: ["/laravel.svg", "/js.svg", "/tail.svg"],
-    link: "/ui.earth.com",
+    link:"https:/github.com/saidabderrahmane/ahbab_almarda",
     screenshots: [
       "/ahbab.png",
       "/ahbab2.png",
@@ -29,7 +29,7 @@ export const projects = [
     longDes: `- Developed a full‑stack application to track visitor registrations and check‑ins during Delfiv events. The Android version, built using Flutter, includes features for scanning QR tickets.\n- Implemented a comprehensive dashboard to export the visitor list, allowing event organizers to efficiently manage attendance data.\n - The app also supports ticketing and mailing functionalities, providing a seamless experience for both organizers and attendees.`,
     img: "/delfiv-events.png",
     iconLists: ["/next.svg", "/ts.svg", "/tail.svg", "/flutter.svg"],
-    link: "/ui.yoom.com",
+    link: "",
     screenshots: [
       "/delfiv-events.png",
       "/delfiv-events2.png",
@@ -42,7 +42,7 @@ export const projects = [
     longDes: `- Developed a multi‑vendor e‑commerce website using Laravel, MySQL, JavaScript, and Bootstrap. \n- The platform supports multiple vendors, allowing them to manage their own products and sales. Integrated Stripe API for secure online payments.\n - Designed and implemented interactive visualizations using Chart.js, providing users and administrators with data insights.`,
     img: "/openmarket.png",
     iconLists: ["/laravel.svg", "/js.svg", "stripe.svg", "/bootstrap.svg"],
-    link: "/ui.aiimg.com",
+    link: "https:/github.com/saidabderrahmane/openmarket",
     screenshots: [
       "/openmarket.png",
       "/openmarket2.png",
@@ -56,9 +56,39 @@ export const projects = [
     longDes: `- Developed a cross‑platform application for cloud data governance, enabling ERP administrators to monitor data changes, manage reference data, and visualize key information on a dashboard. \n- Integrated real‑time data monitoring features for improved transparency and control over cloud‑based operations.\n- Designed user‑friendly dashboards to visualize data modifications and key metrics, improving decision‑making and efficiency.\n- The app supports various data governance activities, ensuring data integrity and compliance.`,
     img: "/Logifusion.png",
     iconLists: ["/laravel.svg", "/flutter.svg"],
-    link: "/ui.apple.com",
+    link: "",
     screenshots: [
       "/Logifusion.png",
+    ],
+  },
+  {
+    id: 5,
+    title: "Bus Line Supervision",
+    des: "Performance evaluation of the Saint-Sébastien bus line using real data to predict the number of passengers.",
+    longDes: `- Evaluated the performance of the Saint-Sébastien bus line using real-world data to forecast passenger numbers.
+    - Data analysis and extraction of contextual variables (temporal factors, weather conditions, special events).
+    - Design of a predictive model for passenger flow using XGBoost, based on temporal, weather, and event-related data.
+    - Hyperparameter optimization and evaluation using metrics such as MSE and RMSE to ensure accuracy.`,
+    img: "/busline.jpg",
+    iconLists: ["/python.svg"],
+    link: "https:/github.com/saidabderrahmane/bus_line_supervision",
+    screenshots: [
+      "/busline.jpg",
+    ],
+  },
+  {
+    id: 5,
+    title: "LeCoinCoin",
+    des: "A classified ads website for buying and selling products, inspired from Leboncoin.",
+    longDes: `- Developed a full-stack application for posting and managing classified ads, replicating the admin panel features of Leboncoin.
+    - Implemented user authentication and authorization using Spring Security, enabling users to post and manage ads.
+    - Designed and implemented a REST API, tested and documented it using Postman.
+    - Used Tailwind CSS for styling and responsive design.`,
+    img: "/busline.jpg",
+    iconLists: ["/spring.svg","/java.svg","/grails.svg","/tail.svg","/js.svg"],
+    link: "https:/github.com/saidabderrahmane/bus_line_supervision",
+    screenshots: [
+      "/busline.jpg",
     ],
   },
 ];
@@ -108,7 +138,7 @@ export const workExperience = [
     thumbnail: "/exp1.svg",
   },
   {
-    id: 1,
+    id: 2,
     title: "Technical Support Specialist",
     company: "Delfiv",
     period: "September 2021 - June 2022",
@@ -144,7 +174,7 @@ export const socialMedia = [
     link: "//github.com/saidabderrahmane"
   },
   {
-    id: 3,
+    id: 2,
     img: "/link.svg",
     link: "//linkedin.com/in/hadj-said-abderrahmane/"
   },
