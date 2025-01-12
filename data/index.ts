@@ -181,7 +181,7 @@ export const socialMedia = [
   },
 ];
 
-export type SkillCategory = 'frontend' | 'backend' | 'mobile' | 'devops' | 'tools';
+export type SkillCategory = 'frontend' | 'backend' | 'mobile' | 'devops' | 'tools' | 'data science';
 
 export const skills: Record<SkillCategory, { name: string, icon: string, description: string }[]> = {
   frontend: [
@@ -206,6 +206,12 @@ export const skills: Record<SkillCategory, { name: string, icon: string, descrip
       { name: 'GitHub Actions', icon: "/github.svg", description: 'A CI/CD service that allows you to automate your software workflows.' },
       { name: 'Docker', icon: "/docker.svg", description: 'A platform for developing, shipping, and running applications in containers.' }
   ],
+  "data science": [
+    { name: 'Machine Learning (sklearn)', icon: "/python.svg", description: 'A library for the Python programming language that is used for machine learning.' },
+    { name: 'Deep Learning (keras)', icon: "/python.svg", description: 'A high-level neural networks API, written in Python.' },
+    { name: 'EDA(pandas, numpy, seaborn)', icon: "/python.svg", description: 'A library providing data structures and functions for data analysis.' },
+    { name: 'ETL pipelines (Spark & Kafka)', icon: "/java.svg", description: 'A unified analytics engine for large-scale data processing.' }
+],
   tools: [
       { name: 'VSCode', icon: "/vscode.svg", description: 'A source-code editor made by Microsoft for Windows, Linux and macOS.' },
       { name: 'Jira', icon: "/jira.svg", description: 'A proprietary issue tracking product developed by Atlassian.' },
