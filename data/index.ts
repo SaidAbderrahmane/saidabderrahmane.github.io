@@ -61,6 +61,22 @@ export const projects = [
       "/Logifusion.png",
     ],
   },
+  
+  {
+    id: 5,
+    title: "LeCoinCoin",
+    des: "A classified ads website for buying and selling products, inspired from Leboncoin.",
+    longDes: `- Developed a full-stack application for posting and managing classified ads, replicating the admin panel features of Leboncoin.
+    - Implemented user authentication and authorization using Spring Security, enabling users to post and manage ads.
+    - Designed and implemented a REST API, tested and documented it using Postman.
+    - Used Tailwind CSS for styling and responsive design.`,
+    img: "/grails_messages.png",
+    iconLists: ["/spring.svg","/java.svg","/grails.svg","/tail.svg","/js.svg"],
+    link: "https:/github.com/saidabderrahmane/bus_line_supervision",
+    screenshots: [
+      "/grails_login.png","/grails_messages.png","/grails_chat.png"
+    ],
+  },
   {
     id: 5,
     title: "Bus Line Supervision",
@@ -71,21 +87,6 @@ export const projects = [
     - Hyperparameter optimization and evaluation using metrics such as MSE and RMSE to ensure accuracy.`,
     img: "/busline.jpg",
     iconLists: ["/python.svg"],
-    link: "https:/github.com/saidabderrahmane/bus_line_supervision",
-    screenshots: [
-      "/busline.jpg",
-    ],
-  },
-  {
-    id: 5,
-    title: "LeCoinCoin",
-    des: "A classified ads website for buying and selling products, inspired from Leboncoin.",
-    longDes: `- Developed a full-stack application for posting and managing classified ads, replicating the admin panel features of Leboncoin.
-    - Implemented user authentication and authorization using Spring Security, enabling users to post and manage ads.
-    - Designed and implemented a REST API, tested and documented it using Postman.
-    - Used Tailwind CSS for styling and responsive design.`,
-    img: "/busline.jpg",
-    iconLists: ["/spring.svg","/java.svg","/grails.svg","/tail.svg","/js.svg"],
     link: "https:/github.com/saidabderrahmane/bus_line_supervision",
     screenshots: [
       "/busline.jpg",
