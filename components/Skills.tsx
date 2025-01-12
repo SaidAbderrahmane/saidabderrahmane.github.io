@@ -30,8 +30,9 @@ const Skills = () => {
                     <TabsTrigger value="frontend">Frontend</TabsTrigger>
                     <TabsTrigger value="backend">Backend</TabsTrigger>
                     <TabsTrigger value="mobile">Mobile</TabsTrigger>
-                    <TabsTrigger value="tools">Tools</TabsTrigger>
                     <TabsTrigger value="devops">DevOps</TabsTrigger>
+                    <TabsTrigger value="data science">Data Science</TabsTrigger>
+                    <TabsTrigger value="tools">Tools</TabsTrigger>
                 </TabsList>
                 {Object.entries(skills).map(([category, skillsList]) => (
                     <TabsContent key={category} value={category}>
