@@ -48,7 +48,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            I&apos;m a Junior Software Engineer.
+            Passionate about crafting intuitive and efficient software solutions.
           </p>
 
           <a href="#projects">
