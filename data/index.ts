@@ -72,13 +72,13 @@ export const projects = [
     - Used Tailwind CSS for styling and responsive design.`,
     img: "/grails_messages.png",
     iconLists: ["/spring.svg","/java.svg","/grails.svg","/tail.svg","/js.svg"],
-    link: "https:/github.com/saidabderrahmane/bus_line_supervision",
+    link: "https:/github.com/saidabderrahmane/lecoincoin",
     screenshots: [
       "/grails_login.png","/grails_messages.png","/grails_chat.png"
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Bus Line Supervision",
     des: "Performance evaluation of the Saint-Sébastien bus line using real data to predict the number of passengers.",
     longDes: `- Evaluated the performance of the Saint-Sébastien bus line using real-world data to forecast passenger numbers.
